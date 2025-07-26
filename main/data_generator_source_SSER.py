@@ -43,7 +43,7 @@ def train_datagenerator(batchsize,train_data1,train_data2,train_data3,win_train,
             # save the training sample and corresponding label
             x_train[i] = x_concatenate
             y_train[i] = np_utils.to_categorical(m, num_classes=40, dtype='float32')
-        # reshape the mixing ration list
+        # reshape the mixing ratio list
         index_style_s = np.reshape(index_list_s,(batchsize,1))
         index_style_u = np.reshape(index_list_u,(batchsize,1,1))
         # obtain original training samples
