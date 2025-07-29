@@ -1,6 +1,6 @@
 # SSER
 
-1. Here are the codes of the transfer learnning with RCC in the paper ["Data Augmentation for Subject-Independent SSVEP-BCIs via Simultaneous Spatial-Energy Representation“]().
+1. Here are the codes of the transfer learnning with RCC in the paper ["Data“]().
 2. The core code for SSER can be found in the `data_generator_source_SSER.py` file within the pretraining directory.
 
 ## The related version information
