@@ -89,7 +89,7 @@ def train_datagenerator(batchsize,train_data1,train_data2,train_data3,win_train,
             V_invariant = Vt_list[i]
             # obtain the i-th reconstructed sample
             recon_x = U_mix @ S_mix_diag @ V_invariant
-            # reshape the i-th reconstructed sample to be the input of the deep learnning model
+            # reshape the i-th reconstructed sample to be the input of the deep learning model
             recon_x = np.reshape(recon_x,(channel, win_train,3))
             # save the i-th reconstructed sample
             recon_list[i] = recon_x
